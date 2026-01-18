@@ -1,5 +1,8 @@
+preview:
+	npx zenn preview
+
 create-article:
 	npx zenn new:article
 
-preview:
-	npx zenn preview
+create-book:
+	@read -p "Enter book slug: " slug && npx zenn new:book --slug $$slug
