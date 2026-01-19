@@ -26,7 +26,7 @@ make create-article
 make create-book
 ```
 
-スラッグを入力すると`books/`ディレクトリに本の雛形を生成
+`books/`ディレクトリに本の雛形を生成
 
 ## デプロイ
 
